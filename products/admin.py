@@ -1,11 +1,12 @@
 from django.contrib import admin
 
-from products.models import Product, ProductCategory
+from products.models import CarBrand, Product, ProductCategory
 
 # Register your models here.
 
 
 admin.site.register(ProductCategory)
+admin.site.register(CarBrand)
 
 
 @admin.register(Product)
